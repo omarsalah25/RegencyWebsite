@@ -1243,6 +1243,7 @@ img{
 }
 
 .fixed-header .sticky-header .logo{
+	width: 12%;
 	padding: 10px 0;
 }
 
