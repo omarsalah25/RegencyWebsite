@@ -25,10 +25,9 @@
 <div class="page-wrapper">
     <!-- Preloader -->
     <div class="preloader"></div>
-
     <header class="main-header header-style-two">
         <!-- Header Top -->
-        
+
 
         <!-- Header Upper -->
         <div class="header-upper">
@@ -37,14 +36,16 @@
                 	<span class="bg-shade"></span>
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title="الرئيسية"></a></div>
+                        <div class="logo"><a href="index.html"><img src="images/regencyLogo2.png" alt="" title="الرئيسية"></a></div>
                     </div>
 
                     <!--Nav Box-->
                     <div class="nav-outer clearfix">
 
                         <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler"><span class="icon"><span class="line line-one flaticon-minus-symbol"></span><span class="line line-two flaticon-minus-symbol"></span><span class="line line-three flaticon-minus-symbol"></span></span></div>
+                        <div class="mobile-nav-toggler"><span class="icon"><span class="line line-one flaticon-minus-symbol"></span>
+                            <span class="line line-two flaticon-minus-symbol"></span><span class="line line-three flaticon-minus-symbol"></span>
+                        </span></div>
 
                         <!-- Main Menu End-->
                         <!-- <div class="outer-box clearfix">
@@ -60,14 +61,17 @@
                         <nav class="main-menu navbar-expand-md navbar-light ">
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    
-                                    <li><a href="contact.html">تواصل معنا</a></li>
-                                       
-                                    <li><a href="about.html">تواصل معنا</a></li>
-                                    
-                                    <li><a href="about-property.html">مشروعتنا </a></li>
+                                    <li ><a href="index.html"  data-i18n="home">الرئيسية</a>
 
-                                    <li ><a href="index.html">الرئيسية</a>
+                                    <li><a href="about-property.html"  data-i18n="Our-Projects">مشروعتنا </a></li>                               
+                                    
+                                    <li><a href="about.html"  data-i18n="about_us"></a></li>
+                                    
+                                    <li><a href="contact.html" data-i18n="contact-us" ></a></li>
+
+                                    <li><span><a href="" onclick="changeLanguage('en')">English</a>/<a href="" onclick="changeLanguage('ar')">عربي</a></span></li>
+
+                                    <li></li>
                                 </ul>
                             </div>
                         </nav>
@@ -83,14 +87,14 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="images/logo-small.png" alt="" title=""></a>
+                    <a href="index.html" title=""><img src="images/regencyLogo2.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <div class="navbar-collapse show collapse clearfix">
-                             <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                             <ul class="navigation clearfix" ><!--Keep This Empty / Menu will come through Javascript--></ul>
                         </div>
                     </nav><!-- Main Menu End-->
                 </div>
@@ -99,24 +103,18 @@
 
 
         <!-- Mobile Menu  -->
-        <div class="mobile-menu">
+        <div class="mobile-menu" >
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-plus-symbol"></span></div>
             
-            <nav class="menu-box">
-            	<div class="nav-logo"><a href="index.html"><img src="images/nav-logo.png" alt="" title=""></a></div>
+            <nav class="menu-box" >
+            	<div class="nav-logo"><a href="index.html"><img src="images/regencyLogo.png" alt="" title=""></a></div>
                 
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix" style="
+                text-align: center;
+            "><!--Keep This Empty / Menu will come through Javascript--></ul>
                 
-                <div class="social-links">
-                	<ul class="clearfix">
-                    	<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-twitter-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-dribbble-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-youtube-square"></span></a></li>
-                        <li><a href="#"><span class="fa fa-envelope-square"></span></a></li>
-                    </ul>
-                </div>
+               
                 
             </nav>
         </div><!-- End Mobile Menu -->
@@ -126,14 +124,14 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/main-slider/9.jpg);">
         <div class="auto-container" style="text-align: right;">
-            <h1 class="text-light">تواصل معنا</h1>
+            <h1 class="text-light" data-i18n="contact-us">تواصل معنا</h1>
         </div>
         <!--Page Info-->
         <div class="page-info" > 
             <div class="auto-container clearfix">
-                <ul class="bread-crumb" style="float: left;">
-                    <li><a href="index.html">الرئيسية</a></li>
-                    <li>تواصل معنا</li>
+                <ul class="bread-crumb" >
+                    <li><a href="index.html" data-i18n="home">الرئيسية</a></li>
+                    <li data-i18n="contact-us">تواصل معنا</li>
                 </ul>
             </div>
         </div>
@@ -164,11 +162,11 @@
     <!-- Contact Map Section -->
 
     <!-- Contact Section -->
-    <section class="contact-section" dir="rtl">
+    <section class="contact-section" >
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="title">تواصل معنا</span>
-                <h2>ابقى على تواصل</h2>
+                <span class="title" data-i18n="contact-us">تواصل معنا</span>
+                <h2 data-i18n="keep-in-touch">ابقى على تواصل</h2>
             </div>
 
             <!-- Contact Form-->
@@ -177,7 +175,7 @@
                     <div class="row clearfix">     
 
                         <div class="col-md-6 col-sm-12 form-group">
-                            <input type="text" name="username" placeholder="الاسم" required="">
+                            <input type="text" name="username" placeholder="الاسم"  required="">
                         </div>
 
                         <div class="col-md-6 col-sm-12 form-group">
@@ -198,10 +196,10 @@
                         <div class="col-md-12 col-sm-12 form-group">
 
                             <select required class="form-select" aria-label="Default select example">
-                                <option selected disabled>الاستفسار</option>
-                                <option value="1">تجارى</option>
-                                <option value="2">طبى</option>
-                                <option value="3">الادارى</option>
+                                <option selected disabled data-i18n="inquiry">الاستفسار</option>
+                                <option value="1" data-i18n="commercial">تجارى</option>
+                                <option value="2" data-i18n="medical">طبى</option>
+                                <option value="3" data-i18n="administrative">الادارى</option>
                               </select>
                             </div>
 
@@ -210,7 +208,7 @@
                         </div>
 
                         <div class="col-md-12 col-sm-12 form-group text-center">
-                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">send message</span></button>
+                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title" data-i18n="send-message">send message</span></button>
                         </div>
                     </div>
                 </form>
@@ -220,22 +218,23 @@
     <!--End Contact Section -->
 
     <!--Main Footer-->
-    <footer class="main-footer">
+ 
+   <footer class="main-footer">
         <div class="auto-container">
             <!--Widgets Section-->
             <div class="widgets-section">
                 <div class="row clearfix">
                     <!--big column-->
                     <div class="big-column col-lg-12 col-md-12 col-sm-12">
-                        <div class="row clearfix" dir="rtl">
+                        <div class="row clearfix footer-dir">
                             <!--Footer Column-->
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12" >
                                 <div class="footer-widget contact-widget" >
-                                    <h4 class="widget-title">عنوان</h4>
+                                    <h4 class="widget-title" data-i18n="footer-address"></h4>
                                     <ul class="contact-info-list">
-                                        <li ><strong>اكتب لنا:</strong> <a href="mailto:regency@hotmail.com">regency@hotmail.com</a></li>
-                                        <li> <strong>اتصل بنا:</strong> <a href="tel:010-111-1111">010 111 1111</a></li>
-                                        <li><strong>زورنا:</strong>387- شارع السنترال الحى الاول -المجاورة الثانية - 6 اكتوبر</li>
+                                        <li ><strong data-i18n="mail-us">اكتب لنا:</strong> <a href="mailto:regency@hotmail.com">regency@hotmail.com</a></li>
+                                        <li> <strong data-i18n="call-us">اتصل بنا:</strong> <a href="tel:010-111-1111">010 111 1111</a></li>
+                                        <li ><strong data-i18n="visit-us">زورنا:</strong><p data-i18n="the-address"></p> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -307,6 +306,8 @@
 <script src="js/validate.js"></script>
 <script src="js/scrollbar.js"></script>
 <script src="js/script.js"></script>
+<script src="js/langScript.js"></script>
+
 <!--Google Map APi Key-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
 <script src="js/map-script.js"></script>

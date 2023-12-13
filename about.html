@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>نبذه عنا</title>
+<title data-i18n="about_us"></title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
     <header class="main-header header-style-two">
         <!-- Header Top -->
-        
+
 
         <!-- Header Upper -->
         <div class="header-upper">
@@ -37,14 +37,16 @@
                 	<span class="bg-shade"></span>
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title="الرئيسية"></a></div>
+                        <div class="logo"><a href="index.html"><img src="images/regencyLogo2.png" alt="" title="الرئيسية"></a></div>
                     </div>
 
                     <!--Nav Box-->
                     <div class="nav-outer clearfix">
 
                         <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler"><span class="icon"><span class="line line-one flaticon-minus-symbol"></span><span class="line line-two flaticon-minus-symbol"></span><span class="line line-three flaticon-minus-symbol"></span></span></div>
+                        <div class="mobile-nav-toggler"><span class="icon"><span class="line line-one flaticon-minus-symbol"></span>
+                            <span class="line line-two flaticon-minus-symbol"></span><span class="line line-three flaticon-minus-symbol"></span>
+                        </span></div>
 
                         <!-- Main Menu End-->
                         <!-- <div class="outer-box clearfix">
@@ -60,14 +62,17 @@
                         <nav class="main-menu navbar-expand-md navbar-light ">
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    
-                                    <li><a href="contact.html">تواصل معنا</a></li>
-                                       
-                                    <li><a href="about.html">نبذه عنا</a></li>
-                                    
-                                    <li><a href="about-property.html">مشروعتنا </a></li>
+                                    <li ><a href="index.html"  data-i18n="home">الرئيسية</a>
 
-                                    <li ><a href="index.html">الرئيسية</a>
+                                    <li><a href="about-property.html"  data-i18n="Our-Projects">مشروعتنا </a></li>                               
+                                    
+                                    <li><a href="about.html"  data-i18n="about_us"></a></li>
+                                    
+                                    <li><a href="contact.html" data-i18n="contact-us" ></a></li>
+
+                                    <li><span><a href="" onclick="changeLanguage('en')">English</a>/<a href="" onclick="changeLanguage('ar')">عربي</a></span></li>
+
+                                    <li></li>
                                 </ul>
                             </div>
                         </nav>
@@ -83,14 +88,14 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="images/logo-small.png" alt="" title=""></a>
+                    <a href="index.html" title=""><img src="images/regencyLogo2.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <div class="navbar-collapse show collapse clearfix">
-                             <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                             <ul class="navigation clearfix" ><!--Keep This Empty / Menu will come through Javascript--></ul>
                         </div>
                     </nav><!-- Main Menu End-->
                 </div>
@@ -99,24 +104,18 @@
 
 
         <!-- Mobile Menu  -->
-        <div class="mobile-menu">
+        <div class="mobile-menu" >
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-plus-symbol"></span></div>
             
-            <nav class="menu-box">
-            	<div class="nav-logo"><a href="index.html"><img src="images/nav-logo.png" alt="" title=""></a></div>
+            <nav class="menu-box" >
+            	<div class="nav-logo"><a href="index.html"><img src="images/regencyLogo.png" alt="" title=""></a></div>
                 
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+                <ul class="navigation clearfix" style="
+                text-align: center;
+            "><!--Keep This Empty / Menu will come through Javascript--></ul>
                 
-                <div class="social-links">
-                	<ul class="clearfix">
-                    	<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-twitter-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-dribbble-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-youtube-square"></span></a></li>
-                        <li><a href="#"><span class="fa fa-envelope-square"></span></a></li>
-                    </ul>
-                </div>
+               
                 
             </nav>
         </div><!-- End Mobile Menu -->
@@ -125,15 +124,15 @@
 
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/main-slider/9.jpg);">
-        <div class="auto-container" style="text-align: right;">
-            <h1 class="text-light">نبذه عنا</h1>
+        <div class="auto-container" >
+            <h1 class="text-light" data-i18n="about_us" >نبذه عنا</h1>
         </div>
         <!--Page Info-->
         <div class="page-info" > 
             <div class="auto-container clearfix">
-                <ul class="bread-crumb" style="float: left;">
-                    <li><a href="index.html">الرئيسية</a></li>
-                    <li>نبذه عنا</li>
+                <ul class="bread-crumb" >
+                    <li><a href="index.html" data-i18n="home">الرئيسية</a></li>
+                    <li data-i18n="about_us">نبذه عنا</li>
                 </ul>
             </div>
         </div>
@@ -144,13 +143,13 @@
     <!-- About Page Section -->
     <section class="about-section-two">
         <div class="auto-container" style="
-    text-align: right;
+    text-align: justify;
 ">
-        	<div class="title-box row clearfix" dir="rtl">
+        	<div class="title-box row clearfix" >
             	<div class="pull-left col-xl-5 col-lg-6 col-md-12 col-sm-12">
                 	<div class="sec-title wow fadeInLeft" >
-                        <span class="title">تعرف علينا</span>
-                        <h2> من نحن </h2>
+                        <span class="title" data-i18n="know">تعرف علينا</span>
+                        <h2 data-i18n="who-we-are"> من نحن </h2>
                     </div>
                 </div>
                 <div class="pull-right col-xl-7 col-lg-6 col-md-12 col-sm-12">
@@ -171,12 +170,11 @@
                 <!-- Content Column -->
                 <div class="content-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner-column wow fadeInRight" >
-                        <div class="text">
+                        <div class="text" data-i18n="about-regency">
                         	<p>تسعى ریجنسى بارك دائ ما الى الالتزام بتنفیذ مشارعھا بأعلى معاییر الجودة التي تحقق الاستقرار وتزداد قیمتھا مع مرور الوقت. خلال 
                                 إنجازاتنا البارزة في مجال التطویر العقاري داخل جمھوریة مصر العربیة وخارجھا و بالاخص ( المملكة العربیة السعودیة ) والتي 
                                 عام خلال ھذة الفترة ثقة قاعدة كبیرة من العملاء. ونحن نقدر قیمة الفرص التي تساعدنا على تطویر ًا، قد اكتسبنا امتدت لأكثر من 20
-                                ً
-                                مھامنا الیومیة، وذلك من خلال الاعتماد على الحلول العصریة والتكنولوجیا الأكثر تطورا</p>
+                                ًمھامنا الیومیة، وذلك من خلال الاعتماد على الحلول العصریة والتكنولوجیا الأكثر تطورا</p>
                         </div>
                     </div>
                 </div>
@@ -184,12 +182,12 @@
         </div>
 
         <div class="auto-container" style="
-        text-align: right;
+        text-align: justify;
     ">
-                <div class="title-box row clearfix" dir="rtl">
+                <div class="title-box row clearfix" >
                     <div class="pull-left col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class="sec-title wow fadeInLeft" >
-                            <h2> مھمتنا </h2>
+                            <h2 data-i18n="our-mission"> مھمتنا </h2>
                         </div>
                     </div>
                     <div class="pull-right col-xl-7 col-lg-6 col-md-12 col-sm-12">
@@ -210,7 +208,7 @@
                     <!-- Content Column -->
                     <div class="content-column col-lg-12 col-md-12 col-sm-12">
                         <div class="inner-column wow fadeInRight" >
-                            <div class="text">
+                            <div class="text" data-i18n="our-mission-dis">
                                 <p>نكرس أنفسنا لتحقیق رؤیتنا من خلال خلق بیئة عمل إیجابیة قائمة على النتائج تركز على الاستثمار وتطویر العلاقات طویلة 
                                 الأمد. ویتم قیاس نجاحنا من خلال النتائج والقیمة المضافة المقدمة لعملائنا ومساھمینا</p>
                             </div>
@@ -220,12 +218,12 @@
             </div>
 
         <div class="auto-container" style="
-        text-align: right;
+        text-align: justify;
     ">
-                <div class="title-box row clearfix" dir="rtl">
+                <div class="title-box row clearfix">
                     <div class="pull-left col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class="sec-title wow fadeInLeft" >
-                            <h2> رؤیتنا </h2>
+                            <h2 data-i18n="our-vision"> رؤیتنا </h2>
                         </div>
                     </div>
                     <div class="pull-right col-xl-7 col-lg-6 col-md-12 col-sm-12">
@@ -246,7 +244,7 @@
                     <!-- Content Column -->
                     <div class="content-column col-lg-12 col-md-12 col-sm-12">
                         <div class="inner-column wow fadeInRight" >
-                            <div class="text" >
+                            <div class="text" data-i18n="our-vision-dis">
                                 <p>ان تصبح ریجنسى بارك رائدة للإبداع في السوق العقاري المصري ، من خلال إنشاء مشاریع ضخمة تقوم على عبقریة وجودة وبراعة 
                                 .التصمیم ومن أجل أن تظل معالمنا بارزة على المستویین المحلي والدولي مع مرور الوقت </p>
                             </div>
@@ -256,12 +254,12 @@
             </div>
 
         <div class="auto-container" style="
-        text-align: right; 
+        text-align: justify; 
     ">
-                <div class="title-box row clearfix" dir="rtl">
+                <div class="title-box row clearfix">
                     <div class="pull-left col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class="sec-title wow fadeInLeft" >
-                            <h2> قیمنا </h2>
+                            <h2 data-i18n="our-values"> قیمنا </h2>
                         </div>
                     </div>
                     <div class="pull-right col-xl-7 col-lg-6 col-md-12 col-sm-12">
@@ -276,7 +274,7 @@
                     <!-- Content Column -->
                     <div class="content-column col-lg-12 col-md-12 col-sm-12">
                         <div class="inner-column wow fadeInRight" >
-                            <div class="text">
+                            <div class="text" data-i18n="our-values-dis">
                                 <p>قیمنا الأساسیة تمثل سر نجاحنا على مر السنین</p>
                             </div>
                         </div>
@@ -293,7 +291,7 @@
             	<div class="title-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                 	<div class="sec-title wow fadeInLeft" style="text-align: right;">
                        
-                        <h2 >ماقدمناه خلال اكثر من 20 عام</h2>
+                        <h2 data-i18n="What-we-have-provided" >ماقدمناه خلال اكثر من 20 عام</h2>
                     </div>
                 </div>
                 <div class="fact-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
@@ -303,7 +301,7 @@
                             <div class="inner">
                                 <div class="icon-box"><span class="flaticon-ruler"></span></div>
                                 <div class="count-box"><span class="count-text" data-speed="3000" data-stop="8705">0</span></div>
-                                <h4 class="counter-title">sqaure feet</h4>
+                                <h4 class="counter-title" data-i18n="sqaure-feet">sqaure feet</h4>
                             </div>
                         </div>
         
@@ -312,7 +310,7 @@
                             <div class="inner">
                                 <div class="icon-box"><span class="flaticon-house"></span></div>
                                 <div class="count-box"><span class="count-text" data-speed="3000" data-stop="680">0</span></div>
-                                <h4 class="counter-title">apartments</h4>
+                                <h4 class="counter-title" data-i18n="apartments">apartments</h4>
                             </div>
                         </div>
         
@@ -321,7 +319,7 @@
                             <div class="inner">
                                 <div class="icon-box"><span class="flaticon-bed-1"></span></div>
                                 <div class="count-box"><span class="count-text" data-speed="3000" data-stop="926">0</span></div>
-                                <h4 class="counter-title">bedrooms</h4>
+                                <h4 class="counter-title" data-i18n="bedrooms">bedrooms</h4>
                             </div>
                         </div>
                     </div>
@@ -332,22 +330,22 @@
    
 
     <!--Main Footer-->
-    <footer class="main-footer">
+   <footer class="main-footer">
         <div class="auto-container">
             <!--Widgets Section-->
             <div class="widgets-section">
                 <div class="row clearfix">
                     <!--big column-->
                     <div class="big-column col-lg-12 col-md-12 col-sm-12">
-                        <div class="row clearfix" dir="rtl">
+                        <div class="row clearfix footer-dir">
                             <!--Footer Column-->
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12" >
                                 <div class="footer-widget contact-widget" >
-                                    <h4 class="widget-title">عنوان</h4>
+                                    <h4 class="widget-title" data-i18n="footer-address"></h4>
                                     <ul class="contact-info-list">
-                                        <li ><strong>اكتب لنا:</strong> <a href="mailto:regency@hotmail.com">regency@hotmail.com</a></li>
-                                        <li> <strong>اتصل بنا:</strong> <a href="tel:010-111-1111">010 111 1111</a></li>
-                                        <li><strong>زورنا:</strong>387- شارع السنترال الحى الاول -المجاورة الثانية - 6 اكتوبر</li>
+                                        <li ><strong data-i18n="mail-us">اكتب لنا:</strong> <a href="mailto:regency@hotmail.com">regency@hotmail.com</a></li>
+                                        <li> <strong data-i18n="call-us">اتصل بنا:</strong> <a href="tel:010-111-1111">010 111 1111</a></li>
+                                        <li ><strong data-i18n="visit-us">زورنا:</strong><p data-i18n="the-address"></p> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -417,6 +415,8 @@
 <script src="js/appear.js"></script>
 <script src="js/scrollbar.js"></script>
 <script src="js/script.js"></script>
+<script src="js/langScript.js"></script>
+
 <!--Google Map APi Key-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
 <script src="js/map-script.js"></script>
