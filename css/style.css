@@ -848,7 +848,8 @@ img{
 	color: #fff;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+    align-items: baseline;
+	font-size:16px;
 
 	gap: 5px;
 }
