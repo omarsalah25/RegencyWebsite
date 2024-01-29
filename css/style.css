@@ -63,7 +63,7 @@
 @import url('jquery-ui.css');
 @import url('jquery.fancybox.min.css');
 @import url('scrollbar.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 /*** 
 
 ====================================================================
@@ -79,6 +79,7 @@
 	outline:none;
 	font-size: 100%;
 	line-height: inherit;
+	font-family: Montserrat;
 }
 
 /*** 
