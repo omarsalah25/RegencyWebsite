@@ -376,3 +376,14 @@
 	});
 
 })(window.jQuery);
+
+var swiper = new Swiper(".mySwiper", {
+	slidesPerView: "auto",
+	spaceBetween: 30,
+	reverseDirection: true,
+
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+});
