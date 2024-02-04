@@ -1,5 +1,7 @@
 {
-    "welcome_message": "Luxury Apartment In a New Complex",
+    "welcome_message1": "Commercial",
+    "welcome_message2": "Administrative",
+    "welcome_message3": "Clinc",
     "welcome_message_dis": "Best location for the apartment",
     "contact-us":"Contact Us",
     "about_us": "About Us",
