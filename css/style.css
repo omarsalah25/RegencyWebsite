@@ -1790,11 +1790,7 @@ img{
 	background-position: center;
 	background-size: cover;
 }
-.image-layer{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .banner-section .slide-item .image-layer{
 	position:absolute;
 	left:0;
