@@ -937,3 +937,8 @@ float: left;
 .comment-form ::-webkit-input-placeholder{color: #6c6d70;}
 .comment-form ::-moz-input-placeholder{color: #6c6d70;}
 .comment-form ::-ms-input-placeholder{color: #6c6d70;}
+
+
+.description{
+	text-align: left;
+  }
