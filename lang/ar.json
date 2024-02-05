@@ -1,6 +1,8 @@
 
 
-{
+{ "welcome_message1": "تجارى",
+"welcome_message2": "ادارى",
+"welcome_message3": "طبى",
     "welcome_message": "شقة فاخرة في مجمع جديد",
     "welcome_message_dis":"أفضل موقع للشقة",
     "contact-us":"تواصل معنا",
