@@ -6368,3 +6368,17 @@ img{
   .description{
 	text-align: right;
   }
+
+  /* .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+video {
+    /* max-width: 100%; */
+	object-fit: contain;
+	height: 100%;
+
+}
