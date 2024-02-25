@@ -65,9 +65,8 @@
 
 	if ($('.banner-carousel').length) {
 		$('.banner-carousel').owlCarousel({
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			loop: true,
+
+			loop: false,
 			margin: 0,
 			nav: false,
 			smartSpeed: 500,

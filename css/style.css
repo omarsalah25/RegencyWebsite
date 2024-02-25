@@ -2048,17 +2048,19 @@ img{
 	-ms-transition: all 5000ms linear;
 	-o-transition: all 5000ms linear;
 	transition: all 5000ms linear; */
-	transition: all 5000ms linear; 
+	transition: all 0 linear; 
 	
 }
 
 .banner-section-two .active .slide-item .image-layer{
-	-webkit-transform:scale(1.5);
-	-ms-transform:scale(1.5);
-	transform:scale(1.5);
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	transform:scale(1.2);
 }
 
 .banner-section-two .slide-item .content-box{
+	transform:scale(1.2);
+
 	position: relative;
 	height: 1020px;
 	width: 100%;
