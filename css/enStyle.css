@@ -942,3 +942,6 @@ float: left;
 .description{
 	text-align: left;
   }
+
+  .fluid-section-one .feature-column .text-content {
+	text-align: left;}
